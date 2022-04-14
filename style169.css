@@ -1,0 +1,13 @@
+.wripe{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 1em;0
+}
+
+.wripe>section{
+    background-color: #eee;
+}
+
+.wripe>section:nth-child(odd){
+    background-color: aqua;
+}
